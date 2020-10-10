@@ -25,3 +25,28 @@ for i in range(a):
         main.reverse()
     elif task[0] == 'print':
         print(main)
+      
+'''Output'''
+"""
+15
+append 1
+insert 0 2
+print
+[2, 1]
+append 2
+print
+[2, 1, 2]
+append 4
+inser 2 3
+print
+[2, 1, 4]
+insert 2 3
+print
+[2, 1, 3, 4]
+reverse
+print
+[4, 3, 1, 2]
+sort
+print
+[1, 2, 3, 4]
+"""
