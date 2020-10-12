@@ -1,3 +1,5 @@
+#linear search and binary search using python
+
 def linear_search(l: list, n):
     for i in l:
         if i == n:
