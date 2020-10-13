@@ -29,6 +29,8 @@ quicksort(l, 0, len(l) - 1)
 print(f"The sorted list:\n{l}")
 
 #Output
+"""
 Your List: 6 7 8 5 4 3 2 6 7 8 
 The sorted list:
 [2, 3, 4, 5, 6, 6, 7, 7, 8, 8]
+"""
