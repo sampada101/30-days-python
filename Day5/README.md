@@ -1,4 +1,4 @@
-## Task: Write a program to calculate in how many ways you can pull 2 cards from a random deck of cards and get total 13
+## Task: Write a program to calculate in how many ways you can pull 2 cards from a random deck of cards and get sum 13
 ## Approach: Used permutation to find all possible combinations and checked their sum if 13 or not
 ## Solution:
 ...
