@@ -1,7 +1,7 @@
 ## Task: write function to take input as (name email and phone number), another function to check if they are correct eg name field is not empty. email is in correct email format and not empty and phone number is integer and not empty, and another function to display the result
 ## Approach: Checked name, email, phone number one by one. Used regualar expressions to find if the given emails is correct or not. try/except for phone number and condition for name
 ## Solution:
-```
+'''
 import re
 
 
@@ -37,5 +37,5 @@ def take_input():
 
 
 take_input()
-```
+'''
 ## Author: Sampada Regmi
