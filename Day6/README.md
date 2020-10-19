@@ -1,7 +1,7 @@
 ## Task: Write a program to zip downloads folder and save to desktop
 ## Approach: Used os module for file/ folder path zipfile module for writing into zip file
 ## Solution:
-'''
+```
 import os
 from zipfile import ZipFile
 
@@ -13,5 +13,5 @@ with ZipFile(desktop+'\Downloads.zip', 'w') as f:
             file = os.path.join(folderName, filename)
             f.write(file, filename)
 print('Success')
-'''
+```
 ## Author: Sampada Regmi
