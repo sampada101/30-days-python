@@ -6,7 +6,7 @@ class Circle:
         return 2*22/7*self.radius
 
     def getArea(self):
-        return 22/7*self.radius*self.radius
+        return 22/7*(self.radius*self.radius)
 
 
 radius = input('Radius of the circle: ')
