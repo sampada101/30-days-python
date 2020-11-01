@@ -1,9 +1,11 @@
 ## Task: WAP to display get the disk space, %CPU used in your OS
-## Approach: Used psutil module to find memory and CPU usage
+## Approach: Used os module to use system command and parse them
 ## Solution:
 ```
-import psutil
-print(f'Cpu Usage: {psutil.cpu_percent(interval=2)}')
-print(f'Memory usage: {psutil.virtual_memory().percent}')
+import os
+os.system('wmic cpu get loadpercentage')
+os.system('systeminfo | findstr /C:"Total Physical Memory"')
+os.system('systeminfo |find "Available Physical Memory"')
+
 ```
 ## Author: Sampada Regmi
