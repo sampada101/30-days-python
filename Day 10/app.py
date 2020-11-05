@@ -10,9 +10,9 @@ def home():
         highlight = names[0]
         other = names.copy()
         other.pop(0)
-        return render_template('base.html', names=other, first=highlight)
+        return render_template('index.html', names=other, first=highlight)
     else:
-        return render_template('base.html', names=names)
+        return render_template('index.html', names=names)
 
 
 @app.route('/add', methods=['POST'])
