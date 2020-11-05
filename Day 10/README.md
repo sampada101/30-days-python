@@ -3,6 +3,9 @@
 ## Solution:
 
 [app.py](https://github.com/sampada101/30-days-python/blob/main/Day%2010/app.py)
+```
+and
+```
 [index.html](https://github.com/sampada101/30-days-python/blob/main/Day%2010/templates/index.html)
 
 ## Author: Sampada Regmi
