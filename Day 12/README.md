@@ -3,7 +3,10 @@
 ## Solution:
 
 [app.py](https://github.com/sampada101/30-days-python/blob/main/Day%2012/app.py)
+``` ```
 [twitter.py](https://github.com/sampada101/30-days-python/blob/main/Day%2012/twitter.py)
+``` ```
 [Templates](https://github.com/sampada101/30-days-python/blob/main/Day%2012/templates)
+``` ```
 
 ## Author: Sampada Regmi
