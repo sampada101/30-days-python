@@ -12,7 +12,7 @@ Login
 ```
 [Profile](https://sampymongo.herokuapp.com/profile)
 ``` 
-Profile
+Profile (Accesible After Logging in)
 ```
 [Admin](https://sampymongo.herokuapp.com/admin)
 ``` 
