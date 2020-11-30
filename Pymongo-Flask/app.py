@@ -48,9 +48,9 @@ class Db:
 
 
 app = Flask(__name__)
-app.permanent_session_lifetime = timedelta(days=1)
-app.secret_key = 'SAMPADAREGMIONLY'
-db = Db("mongodb+srv://sampada:sampada@cluster0.h3tfa.mongodb.net/users?retryWrites=true&w=majority", 'users', 'users')
+app.permanent_session_lifetime = timedelta(days=5)
+app.secret_key = YOURSECRETKEY
+db = Db(CLUSTERCODE, DBNAME, COLLECTIONNAME)
 
 
 @app.before_request
